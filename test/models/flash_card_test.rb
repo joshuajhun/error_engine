@@ -1,4 +1,4 @@
-require 'test_helper'
+  require 'test_helper'
 
 class FlashCardTest < ActiveSupport::TestCase
   test "flash card belongs to a topic" do

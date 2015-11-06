@@ -1,0 +1,6 @@
+<%= link_to 'Add new flash card', new_topic_flash_card_path(@topic) %>
+<div id=cards>
+  <%@topic.flash_cards.each do |flash_card|  %>
+  <%= flash_card.question%>
+    <%end %>
+</div>
